@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'hashwin:ionic-sass',
+  name: 'projik:ionic-sass',
   summary: "Ionic's CSS Framework in SASS and bundled for Meteor.",
   version: '0.3.3',
-  git: 'https://github.com/hashwin/ionic-sass'
+  git: 'https://github.com/projik/ionic-sass'
 });
 
 Package.onUse(function(api) {
