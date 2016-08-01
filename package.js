@@ -1,13 +1,13 @@
 Package.describe({
-  name: 'projik:ionic-sass',
+  name: 'pfafman::ionic-sass',
   summary: "Ionic's CSS Framework in SASS and bundled for Meteor.",
   version: '0.3.3',
-  git: 'https://github.com/projik/ionic-sass'
+  git: 'https://github.com/pfafman/ionic-sass'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2');
-  api.use("fourseven:scss@3.4.0-beta1", ["client"]);
+  api.use("fourseven:scss@3.8.0", ["client"]);
   api.imply("fourseven:scss", ["client"]);
 
   api.addFiles([
